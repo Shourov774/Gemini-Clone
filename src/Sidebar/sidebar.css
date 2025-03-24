@@ -1,0 +1,94 @@
+.sidebar {
+    background-color: #f0f3f8;
+    width: 320px;
+    padding: 15px 0 15px 15px;
+    color: #5d6066;
+    position: relative;
+    transition: width 0.3s ease-in;
+}
+
+.sidebar-extend {
+    width: 70px;
+    padding-right: 1%;
+}
+
+.sidebar img {
+    width: 16px;
+    margin: 15px;
+}
+
+.new-chat{
+    display: flex;
+    padding: 8.5px;
+    background-color: #dce3eb;
+    margin-top: 35px;
+    border-radius: 20px;
+    width: fit-content;
+    text-align: center;
+}
+
+.new-chat img{
+    margin: auto 3px;
+}
+
+.new-chat p {
+    color: #9c9fa3;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto 20px;
+}
+
+.recent {
+    padding: 2.5rem 10px;
+    height: 53%;
+}
+
+.recent .recent-para {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.recent-message {
+    display: flex;
+    padding: 5px;
+    padding-top: 12px;
+}
+
+.recent-message img {
+    margin: 0 3px;
+    font-size: 20px;
+    width: 20px;
+}
+
+.recent-message p {
+    font-weight: lighter;
+}
+
+.help-activity-settings {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 95%;
+}
+
+.help-activity-settings .foot {
+    display: flex;
+}
+
+.help-activity-settings img {
+    width: 20px;
+}
+
+.help-activity-settings p {
+    margin: auto 0;
+}
+
+.recent-message:hover, .help-activity-settings .foot:hover{
+    background-color: #dde2ec;
+    border-radius: 20px;
+    cursor: pointer;
+}
